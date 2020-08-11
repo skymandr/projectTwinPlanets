@@ -1,0 +1,147 @@
+{
+    "type": "FeatureCollection",
+    "name": "Urras: Main landmasses",
+    "properties": {
+        "name": "Urras: Main landmasses",
+        "note": "Main landmasses of the planet Urras, as realised in 'The Dispossessed' and 'The Day Before the Revolution' by Ursula K. Le Guin. Urras is one sixth land and is dominated by two continents, one in each hemisphere. For more information, see indvidual features and 'tauceti_notes.pdf'. Names given here are for ease of reference only, since no landmass is given a name in the source material.",
+        "reference": "References to source material is given for each feature. 'The Dispossessed' is referenced as TD:<chapters>. 'The Day Before the Revolution' is referenced as TDBTR.",
+        "updated": "2020-08-07",
+        "license": "CC:By-NC-SA (see: https://creativecommons.org/licenses/by-nc-sa/4.0/). Cartography by Andreas Skyman based on original maps and work by Ursula K. Le Guin.",
+        "contact": "skymandr at fripost dot org",
+        "extent": {"x": 286.9127471, "y": 144.590515},
+        "offset": {"x": 3.6051771, "y": 14.753595},
+        "border": 0.141
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Eastern Continent",
+                "classification": "continent",
+                "note": "The major landmass in the eastern hemisphere. Comprises at least eleven nations, the major two being A-Io in the west and Thu in the middle. Contains three major bodies of water, two mountain ranges, and six rivers of note (not counting tributaries).",
+                "reference": "TD, TDBTR",
+                "paths": "urras_land_east_continent.path"
+            },
+            "geometry": {
+                "type": "MultiPolygon"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "South Island",
+                "classification": "continent",
+                "note": "Very large island, perhaps a continent, just south of the Eastern Continent. Borders on the Tiuve Sea in the west  and on the Great South Sea in the east. The southern point defines the northern boundary of the Antarctic Sea. Comprises at least two nations, though the proximity to Thu in the north suggests that the northernmost territory may be a part of Thu. Contains no major bodies of water and no mountain ranges, but one river of note.",
+                "reference": "TD",
+                "paths": "urras_land_east_south_island.path"
+            },
+            "geometry": {
+                "type": "MultiPolygon"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Western Continent",
+                "classification": "continent",
+                "note": "The major landmass in the western hemisphere. Comprises at least eleven nations, two of which are Benbili and Mand. Ice desert near the north pole. Contains two major bodies of water, three mountain ranges, and two rivers of note.",
+                "reference": "TD:3,7,9,12 etc, TDBTR",
+                "paths": "urras_land_west_continent.path"
+            },
+            "geometry": {
+                "type": "MultiPolygon"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Antarctic Island",
+                "classification": "continent",
+                "note": "Large island in the far south of the western hemisphere. The north coast is on the Great South Sea, the south on the Antarctic Sea. Mountainous with ice deserts.",
+                "reference": "TD:3 (never mentioned explicitly)",
+                "paths": "urras_land_west_antarctic_island.path"
+            },
+            "geometry": {
+                "type": "MultiPolygon"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Midway Island",
+                "classification": "island",
+                "note": "Island in the Insel sea, midway between the two major continents.",
+                "reference": "TD (never mentioned explicitly)",
+                "paths": "urras_land_west_midway_island.path"
+            },
+            "geometry": {
+                "type": "MultiPolygon"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "East Insel Island",
+                "classification": "island",
+                "note": "Island in the east Insel sea on the boundary to the Great South Sea. It is very near, and presumably part of, Benbili.",
+                "reference": "TD (never mentioned explicitly)",
+                "paths": "urras_land_west_east_insel_island.path"
+            },
+            "geometry": {
+                "type": "MultiPolygon"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Northern Boundary Island",
+                "classification": "island",
+                "note": "Island in the east Insel Sea on the boundary to the Great South Sea. Larger than the neighbouring Southern Boundary Island.",
+                "reference": "TD (never mentioned explicitly)",
+                "paths": "urras_land_west_northern_boundary_island.path"
+            },
+            "geometry": {
+                "type": "MultiPolygon"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Southern Boundary Island",
+                "classification": "island",
+                "note": "Island in the east Insel Sea on the boundary to the Great South Sea. Smaller than the neighbouring Northern Boundary Island.",
+                "reference": "TD (never mentioned explicitly)",
+                "paths": "urras_land_west_southern_boundary_island.path"
+            },
+            "geometry": {
+                "type": "MultiPolygon"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Western Tiuve Island",
+                "classification": "island",
+                "note": "Large island in the west Tiuve Sea on the boundary to the Great South Sea, near the Western Continent. Considerably larger than the neighbouring Eastern Tiuve Island.",
+                "reference": "TD (never mentioned explicitly)",
+                "paths": "urras_land_west_western_tiuve_island.path"
+            },
+            "geometry": {
+                "type": "MultiPolygon"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Eastern Tiuve Island",
+                "classification": "island",
+                "note": "Island in the equatoriual west Tiuve Sea, just east of the considerably larger Western Tiuve Island.",
+                "reference": "TD (never mentioned explicitly)",
+                "paths": "urras_land_west_eastern_tiuve_island.path"
+            },
+            "geometry": {
+                "type": "MultiPolygon"
+            }
+        }
+    ]
+}

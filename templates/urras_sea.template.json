@@ -1,0 +1,82 @@
+{
+    "type": "FeatureCollection",
+    "name": "Urras: Main oceans",
+    "properties": {
+        "name": "Urras: Main oceans",
+        "note": "Main oceans of the planet Urras, as realised in 'The Dispossessed' and 'The Day Before the Revolution' by Ursula K. Le Guin. Urras is five sixths water and has four major seas. The minor Antarctic Sea sea has been included for hydrographic reasons. Borders of the seas are to a large extent educated guesses. For more information, see indvidual features and 'tauceti_notes.pdf'. Names are given where known from source material. Unknown features are given a 'refname' for ease of reference.",
+        "reference": "References to source material is given for each feature. 'The Dispossessed' is referenced as TD:<chapters>. 'The Day Before the Revolution' is referenced as TDBTR.",
+        "updated": "2020-08-07",
+        "license": "CC:By-NC-SA (see: https://creativecommons.org/licenses/by-nc-sa/4.0/). Cartography by Andreas Skyman based on original maps and work by Ursula K. Le Guin.",
+        "contact": "skymandr at fripost dot org",
+        "extent": {"x": 286.9127471, "y": 144.590515},
+        "offset": {"x": 3.6051771, "y": 14.753595},
+        "border": 0.141
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Tiuve Sea",
+                "classification": "major sea",
+                "note": "A major sea, mainly in the midlatitudes of the eastern hemisphere. At least the nations A-Io and Thu have access to in eastern hemisphere. In the western hemisphere Benbili and at least two unknown nations have access to it.",
+                "reference": "TD",
+                "paths": "urras_sea_tiuve_sea.path"
+            },
+            "geometry": {
+                "type": "MultiPolygon"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "North Sea",
+                "classification": "major sea",
+                "note": "A major sea, mainly in the northern part of the eastern hemisphere, stretching to the north pole. The nations A-Io and Thu and two unknown nations on the Eastern Continent have access to it. On the Western Continent Benbili and at least two unknown nations have access to it.",
+                "reference": "TD",
+                "paths": "urras_sea_north_sea.path"
+            },
+            "geometry": {
+                "type": "MultiPolygon"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Insel Sea",
+                "classification": "major sea",
+                "note": "A major sea, mainly in the midlatitudes of the western hemisphere. Thu and at least seven unknown nations on the Eastern Continent have direct access to it. In the western hemisphere Benbili and at least one unknown nation have access to it.",
+                "reference": "TD",
+                "paths": "urras_sea_insel_sea.path"
+            },
+            "geometry": {
+                "type": "MultiPolygon"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Great South Sea",
+                "classification": "major sea",
+                "note": "A major sea, mainly in the southern part of the western hemisphere, stretching to the Antarctic Island. At least the nation Thu in the eastern hemisphere has direct access to it. In the western hemisphere Benbili and at least four unknown nations have access to it.",
+                "reference": "TD",
+                "paths": "urras_sea_great_south_sea.path"
+            },
+            "geometry": {
+                "type": "MultiPolygon"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Antarctic Sea",
+                "classification": "minor sea",
+                "note": "A minor circumpolar sea in the southern hemisphere. Two unknown nations may have direct access to it.",
+                "reference": "TD",
+                "paths": "urras_sea_antarctic_sea.path"
+            },
+            "geometry": {
+                "type": "MultiPolygon"
+            }
+        }
+    ]
+}

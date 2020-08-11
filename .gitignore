@@ -1,0 +1,7 @@
+temp
+__pycache__
+.vscode
+node_modules
+package-lock.json
+*.swp
+*.swo
